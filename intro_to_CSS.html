@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana intro to CSS</title>
+    <style>
+        body {
+            background-color: coral;
+        }
+        h1{
+            background-color: rgb(171, 56, 14);
+        }
+        h2{
+            background-color: rgb(213, 83, 35);
+            color:rgb(103, 34, 9);
+        }
+        #titulo{
+            color:rgb(6, 96, 33)
+        }
+        .poesia {color:blue}
+    </style>
+<!-- A incluir: Intro to CSS
+    Selecting by tag name, p { color: rgb(255, 0, 0);}
+    Selecting by id, #
+    Selecting by class, .-->
+</head>
+<body>
+    <h1>Intro to CSS</h1>
+    <p>Página web de Ana del Pino</p>
+    <p><a href="index.html"> Vuelta al índice </a></p>
+    <h2>Selecting by tag name</h2>
+    <p>Para cambiar el color de los elementos de la página web tendremos que poner en la parte de < head>, el comando < style> y < /style>. <br>
+    Dentro de este pondremos lo que queremos cambiar: h2, body, p,... <br>
+Después de este, entre corchetes {}, pondremos: "color: rgb(0,0,0)"; para seleccionar el color que queramos. <br>
+Por ejemplo, pondremos el fondo de la página web en rojo.</p>
+
+<h2>Selecting by id</h2>
+<p> El comando anterior nos permitía cambiar el estilo de todos lo h2, o todo el cuerpo.<br>
+    Para poder cambiar el estilo de un único título o una única palabra, identificaremos el parráfo, el título o lo que queramos cambiar de estilo poniemdo lo siguiente dentro de la etiqueta:<br>
+        < p id = "Nombre de identificación". > <br>
+    Y en el apartado <em>head</em>, dentro de <em>style</em>, pondremos #, el nombre de identificación y a continuación seguimos el procedimiento anterior, entre corchetes seleccionamos el color: <br>
+    # Nombre de identificación { color: rgb(0,0,0)}  <br>
+    Por ejemplo, pondremos solo el siguiente título en un verde:</p>
+    <h3 id="titulo">Origen de Rubén Darío</h3>
+    <p>Rubén Darío era de origen nicaragüénse, de donde trajo a la península su nueva manera de hacer las cosas. <br>Sorprendió a sus coetáneos con su talento.</p>
+   
+    <h2>Selecting by class</h2>
+    <p> Este comando nos permite seleccionar "clases", es decir, cambiar el estilo a solo unos párrafos o títulos en concreto.<br>
+    Por ejemplo pondremos los párrafos de la poesía en un color.</p>
+    <h3>Poesía de Rubén Darío</h3>
+    <h4>1.- Amo, amas</h4>
+
+        <p class="poesia">Amar, amar, amar, amar siempre, con todo <br>
+        el ser y con la tierra y con el cielo,<br>
+        con lo claro del sol y lo oscuro del lodo;<br>
+        amar por toda ciencia y amar por todo anhelo.</p>
+        
+        <p class="poesia"> Y cuando la montaña de la vida<br>
+        nos sea dura y larga y alta y llena de abismos,<br>
+        amar la inmensidad que es de amor encendida<br>
+        ¡y arder en la fusión de nuestros pechos mismos!</p>
+    
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- More HTML tags
+        • Un enlace desde texto
+        • Un enlace desde una imagen
+        • Un enlace con texto o imagen, absoluto (a una página de fuera del sitio)
+        • Un enlace con texto o imagen, relativo (a una página de nuestro sitio)
+        • Un enlace que se abra en una ventana nueva (con el atributo target)
+        • Un enlace interno (a un punto dentro de la misma página)
+        • Tabla, usando las etiquetas: <table>, <thead>, <tr>, <th>, <tbody>, <td>
+        • Comment
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More html tags</title>
+    <style>
+        body{
+            background-color: rgb(78, 222, 141);
+        }
+        h1{
+            background-color: seagreen;
+        }
+        h3{
+            background-color: rgb(57, 176, 109);
+            color:rgb(25, 77, 48);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>More HTML tags</h1>
+    <p>Esta es la página web de Ana del Pino.</p>
+        <p><a href="index.html"> Vuelta al índice </a></p>
+
+
+    <h3 id="interno">Un enlace desde texto</h3>
+    <p>Para dirigir a un enlace desde texto se utiliza la etiqueta <em>a</em>, dentro de esta <em>href="enlace"</em>. <br>
+    ¿Quieres saber más cosas sobre el Modernismo? <a href="https://humanidades.com/modernismo/">Pincha aquí</a></p>
+
+
+    <h3>Un enlace desde una imagen</h3>
+    <p>Al igual que se puede adjuntar un enlace a un texto, también se puede a una imagen.<br>
+    Para ello, donde antes poníamos el texto mostrado,  ponemos la referencia de la imagen.</p>
+    <p>El arte modernista es muy particular, si quieres saber más información sobre el arte, pincha en la imagen.</p>
+    <p><a href="https://moovemag.com/2019/01/la-arquitectura-modernista-el-primer-estilo-internacional/"> <img src="artemodernista.jpg" alt="Enlace a arte Modernista" width="300"> </a> </p>
+
+
+    <h3>Un enlace con texto o imagen, absoluto (a una página de fuera del sitio)</h3>
+    <p>Para hacer un enlace a una página fuera del sitio, enlace absoluto. Ponemos el enlace de otra página de internet.</p>
+    <p>Como ya hemos mencionado anteriormente, Rubén Darío fue uno de los máximos representantes de la poesía modernista. Aunque también podría tener una relación con la Generación del 98.<br>
+    <a href="http://magazinemodernista.com/2010/11/11/ruben-dario-y-el-98/">Descubre más cosas de la relación de Rubén Darío con la Generación del 98</a></p>
+
+
+    <h3>Un enlace con texto o imagen, relativo (a una página de nuestro sitio)</h3>
+    <p>Para acceder a una página de nuestro sitio basta con poner en vez del enlace, el nombre del archivo, que se deberá encontrar en la misma carpeta que este.</p>
+    <p>El Modernismo tuvo un arte muy carácterísto, decorando todo con colores, nosotros podemos hacer un paralelismo a nuestra página, decorándola y editando su estilo con: <br> <a href="intro_to_CSS.html"> <img src="css.png" alt="Enlace a css" width="100"></a></p>
+
+
+    <h3>Un enlace que se abra en una pestaña nueva (con el atributo target)</h3>
+    <p>Hasta ahora los enlaces se abrían en la misma pestaña que en la que estábamos, para abrirlo en una nueva, hay que añadir <em>target</em>.</p>
+    <p>Valle Inclán fue un español modernista bastante reconocido, escribió cuentos, poesía y también narrativa, entre las que se encuentra <em>Sonatas</em>.<br>
+    Descubre más sobre <a target="_blank" href="https://es.wikipedia.org/wiki/Sonatas_(Valle-Incl%C3%A1n)"> <em>Sonatas</em>.</a></p>
+    
+
+    <h3>Un enlace interno (a un punto dentro de la misma página)</h3>
+    <p>Se puede poner un enlace que nos lleve a un sitio de la página web, por ejemplo:<br>
+        Vuelve a repasar un <a href="#interno">enlace desde texto.</a> </p>
+    
+    <h3>Tabla, usando las etiquetas:</h3>
+    <p>Para hacer una tabla usaremos el comando <em>table</em>:</p>
+    <ul>
+        <li><strong>"thead"</strong>
+        <ul><li><strong>"tr"</strong></li>
+            <li><strong>"th"</strong></li>
+        </ul></li>
+        <li><strong>"tbody"</strong><ul>
+            <li><strong>"td"</strong></li>
+        </ul></li>
+    <table>
+        <thead>
+            <tr>
+                <th>Autor</th>
+                <th>Obra más reconocida   </th>
+                <th>Año publicación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td>Rubén Darío</td>
+            <td><em>Prosas profanas</em></td>
+            <td>1896</td>
+        </tbody>
+        <tbody>
+            <td>Valle-Inclán</td>
+            <td><em>Sonatas</em></td>
+            <td>1902-05</td>
+        </tbody>
+        <tbody>
+            <td>Antonio Machado</td>
+            <td><em>Soledades</em></td>
+            <td>1907</td>
+        </tbody>
+
+    </table>
+
+    </ul>
+    
+    <h3>Comment</h3>
+    <p>Para hacer comentarios en el programa para hacer aclaraciones sobre este, basta con poner el comentario entre < !-- comentario --></p> 
+    <!-- comentario: el Modernismo es muy bonito-->
+       
+</body>
+</html>

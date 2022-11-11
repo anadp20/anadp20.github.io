@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto en CSS</title>
+    <style>
+        #parrafo1 {
+            font-family: sans-serif;
+            font-size: 2;
+        }
+        #helve{
+            font-family: 'Courier New';
+        }
+        #poesia{
+            text-align:center;
+        }
+        #sub{
+            text-decoration:underline;
+        }
+        #pix{
+            font-size:22px;
+        }
+        #em{
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<!--Generic font family
+• Specific font family
+• Font size px
+• Font size em
+• font-style
+• line-height
+• text-align
+• text-decoration-->
+
+<body>
+    <h1>CSS text properties</h1>
+    <p>Esta es la página web de Ana del Pino</p>
+    <p><a href="index.html">Vuelta al índice</a></p>
+
+
+    <h2>Familia tipográfica genérica</h2>
+    <p>Para seleccionar una familia tipográfica hay que usar la etiqueta <em>font-family:</em> dentro de <em>style</em>.</p>
+    <p>Por ejemplo, el siguiente párrafo es <em>sans-serif</em>:</p>
+    <p id="parrafo1">La corriente modernista recibió varios nombres también aceptados, como: Art nouveau, Jugendstil, Modern Style y Liberty. La diversidad para su denominación delata el carácter de libertad y de romper con las estructuras, que caracterizó al movimiento.</p>
+    
+    <h2>Familia tipográfica específica</h2>
+    <p>Para seleccionar una familia tipográfica espécifica hay que usar la etiqueta <em>font-family:</em> y ponerla entre comillas.</p>
+    <p>Por ejemplo, el siguiente párrafo es <em>"Courier New"</em>:</p>
+    <p id="helve">La corriente modernista recibió varios nombres también aceptados, como: Art nouveau, Jugendstil, Modern Style y Liberty. La diversidad para su denominación delata el carácter de libertad y de romper con las estructuras, que caracterizó al movimiento.</p>
+
+    <h2>Tamaño de la fuente en px</h2>
+    <p><em>px</em> se usa para ajustar el temaño del texto en función de los píxeles.</p>
+    <p>Por ejemplo el siguiente texto está en 22 píxeles:</p>
+    <p id="pix"> Dos ideas son fundamentales para entender la cultura moderna que estaba emergiendo: la conciencia de que “el futuro ya ha comenzado”, que se relaciona con el concepto de progreso; y la convicción de que para tener futuro no sirven las pautas o doctrinas de etapas anteriores, sino que es necesario crear sus propias normas. Existe la ruptura con el pasado y la apuesta con el futuro desde el mismo presente.</p>
+
+    <h2>Tamaño de la fuente en em</h2>
+    <p><em>Em</em> sirve para relacionar un tamaño de letra al tamaño de todo el texto. <br>
+    Por ejemplo el siguiente texto está 2 veces más grande que el resto de la página. </p>
+    <p id="em"> La utilización habitual de los términos modernism (en inglés) o modernisme (en francés) no se refiere a este movimiento artístico, sino genéricamente a las vanguardias o al arte moderno, dentro de lo polisémico de ambos términos.</p>
+
+    <h2>Estilo de fuente</h2>
+
+    <h2>Altura de línea</h2>
+    <p>Para cambiar el espacio entre líneas, se usa <em>text-height</em>.</p>
+
+
+    <h2>Alineación de texto</h2>
+    <p>Para cambiar la alineación del texto, se usa <em>text-align</em>.</p>
+    <p id="poesia">
+        <strong>Cultivo una rosa blanca, de José Martí</strong><br>
+
+        Cultivo una rosa blanca<br>
+        en junio como enero<br>
+        para el amigo sincero<br>
+        que me da su mano franca.<br>
+        <br>
+        Y para el cruel que me arranca<br>
+        el corazón con que vivo,<br>
+        cardo ni ortiga cultivo;<br>
+        cultivo la rosa blanca.<br>
+    </p>
+
+    <h2>Decoración de texto</h2>
+    <p>Para cambiar la decoración, por ejemplo para subrayarlo, se usa <em>text-decoration</em>:</p>
+    <p id="sub">El modernismo no fue unánimemente recibido: una amplia corriente de opinión identificaba sus formas con el concepto de degeneración (una desintegración orgánica que corresponde a la desintegración social).</p>
+</body>
+</html>
